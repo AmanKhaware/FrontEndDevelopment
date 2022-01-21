@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+   
+</head>
+  <body>
+<h3 style="text-align: center;">Signup Form</h3>
+    <br><br>
+    <form class="was-validated">
+        <!--row for first middle and last name -->
+
+    <div class="row">
+        <div class="col-md-4">
+          <div class="form-outline">
+            <input type="text" class="form-control is-valid" id="firstname"required/>
+            <label for="firstname" class="form-label">First name</label>
+            <div class="invalid-feedback">Please enter first name</div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-outline">
+            <input type="text" class="form-control is-valid" id="midname" required/>
+            <label for="midname" class="form-label">Middle name</label>
+            <div class="invalid-feedback">Please enter middle name</div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-outline">
+              <input type="text" class="form-control is-valid" id="lastname" required/>
+              <label for="lastname" class="form-label">Last name</label>
+              <div class="invalid-feedback">Please enter last name</div>
+            </div>
+          </div>
+    </div>
+<br><br>
+        <div class="col-md-4">
+          <div class="input-group form-outline">
+            <label for="validationServerUsername" class="form-label">Email Id : &nbsp;&nbsp; </label>
+            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+            <input type="text" class="form-control is-valid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required/>
+            <div class="invalid-feedback">Please enter user name</div>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+            <button class="btn btn-outline-dark dropdown-toggle" type="button" data-toggle="dropdown">City
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item normal" href="#">Deoghar</a></li>
+              <li><a class="dropdown-item disabled" href="#">Ranchi</a></li>
+              <li><a class="dropdown-item active" href="#">Bangalore</a></li>
+              
+            </ul>
+          </div>
+        <br>
+
+        <!-- -------------------------------------------------------------------->
+        <div class="col-md-4">
+            <div class="input-group form-outline">
+              <label for="password" class="form-label">Password : &nbsp;&nbsp; </label>
+              <input type="password" class="form-control is-valid" id="password" required/>
+              <div class="invalid-feedback">Please enter valid password</div>
+            </div>
+          </div><br>
+
+          <div class="col-md-4">
+            <div class="input-group form-outline">
+              <label for="confrimpassword" class="form-label">Confirm Password : &nbsp;&nbsp; </label>
+              <input type="password" class="form-control is-valid" id="confirmpassword" required/>
+              <div class="invalid-feedback">Please enter confirm password</div>
+            </div>
+          </div><br>
+
+        <!----------------------------------------------------------------------->
+        <div class="col-md-4">
+            <div class="input-group form-outline">
+              <label for="age" class="form-label">Age : &nbsp;&nbsp; </label>
+              <input type="text" class="form-control is-valid" id="age" required/>
+              <div class="invalid-feedback">Please enter age</div>
+            </div>
+          </div><br>
+
+<!-----------------------------------------checkboxes------------------------------------------------>
+<br><br>
+<label for="hobbies" class="form-label">Hobbies : &nbsp;&nbsp; </label>
+<div class="row">
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob1">
+    <label class="form-check-label" for="hob1">
+      Reading Books
+    </label>
+  </div> &nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob2">
+    <label class="form-check-label" for="hob2">
+      Driving
+    </label>
+  </div> &nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob3">
+    <label class="form-check-label" for="hob3">
+      Cycling
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob4">
+    <label class="form-check-label" for="hob4">
+      Singing
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob5">
+    <label class="form-check-label" for="hob5">
+      Running
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob6">
+    <label class="form-check-label" for="hob6">
+      Football
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob7">
+    <label class="form-check-label" for="hob7">
+      Treeking
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="hob8">
+    <label class="form-check-label" for="hob8">
+      Walking
+    </label>
+  </div>&nbsp;&nbsp;
+</div>
+<br>
+<!------------------------------------------------------------------------------------->
+
+
+
+<!---------------------------------------Radio Buttons for gender ------------------------------------>
+<label for="gender" class="form-label">Gender : &nbsp;&nbsp; </label>
+<div class="row">
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="gender1" value="option1" checked>
+    <label class="form-check-label" for="gender1">
+      Male
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="gender2" value="option2">
+    <label class="form-check-label" for="gender2">
+     Female
+    </label>
+  </div>&nbsp;&nbsp;
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="gender3" value="option3" disabled>
+    <label class="form-check-label" for="gender3">
+      Other
+    </label>
+  </div>  &nbsp;&nbsp;
+</div>        
+  <br><br>
+
+<!---------------------------------------------------------------------------------------->
+
+<!--------------------------text area -------------------------------------------------->
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Profile Description</label>
+    <textarea class="form-control" id="description" rows="15"></textarea>
+  </div>
+<!----------------------------------------------------------------------------------------->
+
+
+<div class="form-group" style>
+    <label for="exampleFormControlFile1">Upload Profile</label>
+    <input type="file" class="form-control-file" id="filetoupload">
+</div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input is-valid"
+              type="checkbox"
+              value=""
+              id="invalidCheck3"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">You must agree before submitting.</div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+</body>
+</html>
